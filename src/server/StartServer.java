@@ -42,7 +42,7 @@ public class StartServer {
        networkServer.setOption("child.keepAlive", true);
        networkServer.setOption("readWriteFair", true);
        networkServer.setPipelineFactory(new ServerPipelineFactory());
-       Channel channel = networkServer.bind(new InetSocketAddress("81.30.156.50", 29999));
+       Channel channel = networkServer.bind(new InetSocketAddress("xx.xx.xxx.xx", 29999));
 
 
        System.err.println("Server started : " + InetAddress.getLocalHost().toString());
